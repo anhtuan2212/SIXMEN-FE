@@ -11,6 +11,7 @@ import { DashboardComponent } from "../../pages/dashboard/dashboard.component";
 import { UserProfileComponent } from "../../pages/user-profile/user-profile.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { ProductComponent } from "src/app/pages/product/product.component";
+import { VoucherComponent } from "src/app/pages/voucher/voucher.component";
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -22,6 +23,11 @@ import { ProductComponent } from "src/app/pages/product/product.component";
     NgbModule,
     ClipboardModule,
   ],
-  declarations: [DashboardComponent, UserProfileComponent, ProductComponent],
+  declarations: [
+    DashboardComponent,
+    UserProfileComponent,
+    ProductComponent,
+    VoucherComponent,
+  ],
 })
 export class AdminLayoutModule {}

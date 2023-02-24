@@ -26,6 +26,12 @@ export const ROUTES: RouteInfo[] = [
     icon: "ni-bullet-list-67 text-red",
     class: "",
   },
+  {
+    path: "/admin/voucher",
+    title: "Voucher",
+    icon: "ni-bullet-list-67 text-red",
+    class: "",
+  },
 ];
 
 @Component({
